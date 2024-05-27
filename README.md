@@ -20,6 +20,6 @@ pytest
 
 ### 5 Generate Test Report
 
-python -m pytest -m login --junitxml=reports.xml
+pytest --junitxml=reports.xml
 
 
