@@ -1,5 +1,5 @@
 class Config:
     BASE_URL = "https://konto.dyn.sport"
-    DEFAULT_TIMEOUT = 10
     BROWSER = "chrome"
-    HEADLESS = True
+    USER_EMAIL = "marvin.klaproth+freetrial+monthly@dynmedia.com"
+    USER_PASSWORD = "DynSportTest102!"

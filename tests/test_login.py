@@ -8,6 +8,6 @@ def test_valid_login(driver):
     login_page = LoginPage(driver=driver, login_url=Config.BASE_URL + "/anmelden")
     login_page.go_to_login_page()
     time.sleep(1)
-    login_page.login("marvin.klaproth+freetrial+monthly@dynmedia.com", "DynSportTest102!")
+    login_page.login(Config.USER_EMAIL, Config.USER_PASSWORD)
     time.sleep(1)
     assert driver.current_url == "https://www.dyn.sport/"

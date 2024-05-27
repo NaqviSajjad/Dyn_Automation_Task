@@ -14,7 +14,7 @@ def generate_password():
     special = "!@#$%^&*()_+-=[]{}|;:',.<>/?`~"  # Define any special characters you want included
 
     # Ensure at least one character from each set is included
-    password = [
+    password = [    
         random.choice(lower),
         random.choice(upper),
         random.choice(digits),
